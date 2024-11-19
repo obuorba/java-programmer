@@ -1,5 +1,5 @@
 # java-programmer
-This repo demonstrates my mastery of programming concepts in the Java programming language.
+This repo demonstrates my mastery of programming concepts using the Java programming language.
 
 Specifically, it demonstrates my knowledge of the following:
 1. Fundamental language concepts

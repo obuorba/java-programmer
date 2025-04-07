@@ -1,0 +1,37 @@
+@startuml
+
+!theme vibrant
+top to bottom direction
+skinparam linetype ortho
+
+class Person {
+  + Person(int, String, String):
+  + Person(int):
+  - age: int
+  - firstName: String
+  - lastName: String
+  + DEFAULT_NAME: String
+  + getFirstName(): String
+  + getAge(): int
+  + getLastName(): String
+}
+
+@enduml
+
+@startuml
+
+!theme vibrant
+top to bottom direction
+skinparam linetype ortho
+
+class QueueElement {
+  + QueueElement(Person, QueueElement):
+  - value: Person
+  - next: QueueElement
+  + setValue(Person): void
+  + getNext(): QueueElement
+  + setNext(QueueElement): void
+  + getValue(): Person
+}
+
+@enduml
